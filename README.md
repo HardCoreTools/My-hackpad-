@@ -1,6 +1,6 @@
 # My-hackpad
 A custom macropad I designed from scratch for Hack Club's Hackpad program. It's a small programmable keypad for shortcuts and macros, built to learn PCB design, embedded firmware, and CAD along the way.
-
+> ⚠️ **No firmware yet** — no code has been written. Still TODO.
 
 ## Features
  
