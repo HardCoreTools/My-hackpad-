@@ -2,6 +2,8 @@
 A custom macropad I designed from scratch for Hack Club's Hackpad program. It's a small programmable keypad for shortcuts and macros, built to learn PCB design, embedded firmware, and CAD along the way.
 > ⚠️ **No firmware yet** — no code has been written. Still TODO.
 
+<img src="images/Screenshot 2026-09-30 163131.png" width="360">
+
 ## Features
  
 - programmable keys with remappable macros
@@ -16,7 +18,7 @@ A custom macropad I designed from scratch for Hack Club's Hackpad program. It's 
  
 | Schematic | PCB | Case |
 |-----------|-----|------|
-| ![Schematic](images/schematic.png) | ![PCB](images/pcb.png) | ![Case](images/case.png) |
+| <img src="images/Screenshot 2026-09-30 172713.png" width="360"> | <img src="images/Screenshot 2026-09-30 172844.png" width="360"> | <img src="images/Screenshot 2026-09-30 163131.png" width="360"> |
 
 
  ## Bill of Materials
