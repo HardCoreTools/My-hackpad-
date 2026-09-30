@@ -20,16 +20,16 @@ A custom macropad I designed from scratch for Hack Club's Hackpad program. It's 
 
 
  ## Bill of Materials
-9x Cherry MX Switches
-1x XIAO RP2040
-9x Blank DSA Keycaps
-9x 1N4148 Diodes.
-4x M3x16 Bolt
-4x M3 Heatset
-1x OLED display
-1x rotary encoder
-1x case base
-1x case top
+- 9x Cherry MX Switches
+- 1x XIAO RP2040
+- 9x Blank DSA Keycaps
+- 9x 1N4148 Diodes.
+- 4x M3x16 Bolt
+- 4x M3 Heatset
+- 1x OLED display
+- 1x rotary encoder
+- 1x case base
+- 1x case top
 
 
 ## Repo Structure
