@@ -1,1 +1,95 @@
-coming soon
+import board
+import busio
+import displayio
+import terminalio
+from adafruit_display_text import label
+import adafruit_displayio_ssd1306
+
+from kmk.kmk_keyboard import KMKKeyboard
+from kmk.keys import KC
+from kmk.scanners import DiodeOrientation
+from kmk.modules import Module
+from kmk.modules.encoder import EncoderHandler
+from kmk.extensions.media_keys import MediaKeys
+
+keyboard = KMKKeyboard()
+
+keyboard.col_pins = (board.D1, board.D0, board.D2)
+keyboard.row_pins = (board.D3, board.D9, board.D8)
+keyboard.diode_orientation = DiodeOrientation.COL2ROW
+
+keyboard.extensions.append(MediaKeys())
+
+encoder_handler = EncoderHandler()
+keyboard.modules.append(encoder_handler)
+encoder_handler.pins = ((board.D10, board.D6, board.D7, False),)
+
+COPY = KC.LCTL(KC.C)
+PASTE = KC.LCTL(KC.V)
+CUT = KC.LCTL(KC.X)
+UNDO = KC.LCTL(KC.Z)
+REDO = KC.LCTL(KC.Y)
+SAVE = KC.LCTL(KC.S)
+TASKS = KC.LALT(KC.TAB)
+SNIP = KC.LGUI(KC.LSFT(KC.S))
+
+keyboard.keymap = [
+    [
+        COPY,       PASTE,      CUT,
+        UNDO,       REDO,       SAVE,
+        KC.MPLY,    TASKS,      SNIP,
+    ],
+]
+
+encoder_handler.map = [
+    ((KC.VOLD, KC.VOLU, KC.MUTE),),
+]
+
+
+class OledScreen(Module):
+    def __init__(self):
+        displayio.release_displays()
+        i2c = busio.I2C(board.SCL, board.SDA)
+        bus = displayio.I2CDisplay(i2c, device_address=0x3C)
+        oled = adafruit_displayio_ssd1306.SSD1306(bus, width=128, height=64)
+        group = displayio.Group()
+        group.append(
+            label.Label(
+                terminalio.FONT,
+                text='My-hackpad',
+                scale=2,
+                anchor_point=(0.5, 0.5),
+                anchored_position=(64, 32),
+            )
+        )
+        oled.root_group = group
+
+    def during_bootup(self, keyboard):
+        return
+
+    def before_matrix_scan(self, keyboard):
+        return
+
+    def after_matrix_scan(self, keyboard):
+        return
+
+    def before_hid_send(self, keyboard):
+        return
+
+    def after_hid_send(self, keyboard):
+        return
+
+    def on_powersave_enable(self, keyboard):
+        return
+
+    def on_powersave_disable(self, keyboard):
+        return
+
+    def process_key(self, keyboard, key, is_pressed, int_coord):
+        return key
+
+
+keyboard.modules.append(OledScreen())
+
+if __name__ == '__main__':
+    keyboard.go()
