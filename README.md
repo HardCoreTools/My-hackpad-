@@ -4,6 +4,7 @@ A custom macropad I designed from scratch for Hack Club's Hackpad program. It's 
 
 <img src="images/Screenshot 2026-09-30 163131.png" width="360">
 
+
 ## Features
  
 - programmable keys with remappable macros
@@ -19,6 +20,8 @@ A custom macropad I designed from scratch for Hack Club's Hackpad program. It's 
 | Schematic | PCB | Case |
 |-----------|-----|------|
 | <img src="images/Screenshot 2026-09-30 172713.png" width="360"> | <img src="images/Screenshot 2026-09-30 172844.png" width="360"> | <img src="images/Screenshot 2026-09-30 163131.png" width="360"> |
+
+[![View PCB on KiCanvas](https://hack.club/pcb-badge)]([https://kicanvas.org/?repo=https://github.com/<OWNER>/<REPOSITORY>/tree/main/pcb](https://kicanvas.org/?repo=https%3A%2F%2Fgithub.com%2FHardCoreTools%2FMy-hackpad-%2Ftree%2Fmain%2Fpcb))
 
 
  ## Bill of Materials
