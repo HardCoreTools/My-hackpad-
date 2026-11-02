@@ -1,0 +1,8 @@
+Item,Required Qty,Component Description,Sourcing / Part Notes
+1,1,Seeed Studio XIAO RP2040,Main Microcontroller Board (Unsoldered)
+2,1,0.91 inch SSD1306 OLED Display,128x32 pixel screen / I2C interface / Pinout: GND-VCC-SCL-SDA
+3,9,MX-Style Mechanical Switches,
+4,9,Blank DSA Keycaps,White keycaps
+5,4,M3x16mm Screws,Enclosure fasteners
+6,4,M3x5x4mm Heatset Inserts,Brass threaded chassis inserts
+7,9,1N4148 Diodes,Through-hole diodes
