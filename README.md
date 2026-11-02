@@ -21,7 +21,7 @@ A custom macropad I designed from scratch for Hack Club's Hackpad program. It's 
 |-----------|-----|------|
 | <img src="images/Screenshot 2026-09-30 172713.png" width="360"> | <img src="images/Screenshot 2026-09-30 172844.png" width="360"> | <img src="images/Screenshot 2026-09-30 163131.png" width="360"> |
 
-[![View PCB on KiCanvas](https://hack.club/pcb-badge)]([https://kicanvas.org/?repo=https://github.com/<OWNER>/<REPOSITORY>/tree/main/pcb](https://kicanvas.org/?repo=https%3A%2F%2Fgithub.com%2FHardCoreTools%2FMy-hackpad-%2Ftree%2Fmain%2Fpcb))
+[![View PCB on KiCanvas](https://hack.club/pcb-badge)](https://kicanvas.org/?repo=https%3A%2F%2Fgithub.com%2FHardCoreTools%2FMy-hackpad-%2Ftree%2Fmain%2Fpcb)
 
 AND A HEADS UP- so idk how to use kicad so i imported the project to easyeda so im gonna put the easyeda files to the pcb root so im soryy and its one of my first projects so pls be kind. TY
 
