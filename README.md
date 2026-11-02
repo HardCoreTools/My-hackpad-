@@ -1,5 +1,5 @@
 # My-hackpad
-A custom macropad I designed from scratch for Hack Club's Hackpad program. It's a small programmable keypad for shortcuts and macros, built to learn PCB design, embedded firmware, and CAD along the way.
+A custom macropad I designed from scratch for Hack Club's Hackpad program. It's a small programmable keypad for shortcuts and macros, built to learn PCB design, embedded firmware, and CAD along the way. 
 
 
 <img src="images/Screenshot 2026-09-30 163131.png" width="360">
@@ -23,6 +23,7 @@ A custom macropad I designed from scratch for Hack Club's Hackpad program. It's 
 
 [![View PCB on KiCanvas](https://hack.club/pcb-badge)]([https://kicanvas.org/?repo=https://github.com/<OWNER>/<REPOSITORY>/tree/main/pcb](https://kicanvas.org/?repo=https%3A%2F%2Fgithub.com%2FHardCoreTools%2FMy-hackpad-%2Ftree%2Fmain%2Fpcb))
 
+AND A HEADS UP- so idk how to use kicad so i imported the project to easyeda so im gonna put the easyeda files to the pcb root so im soryy and its one of my first projects so pls be kind. TY
 
  ## Bill of Materials
 - 9x Cherry MX Switches
